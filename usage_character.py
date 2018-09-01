@@ -76,4 +76,4 @@ with tf.Session() as sess:
         feed_dict={context_character_ids: context_ids,
                    question_character_ids: question_ids}
     )
-
+    print(elmo_context_input_, elmo_context_input_.shape)
